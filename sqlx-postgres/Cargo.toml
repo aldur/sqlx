@@ -31,7 +31,7 @@ crc = "3.0.0"
 hkdf = "0.12.0"
 hmac = { version = "0.12.0", default-features = false }
 md-5 = { version = "0.10.0", default-features = false }
-rand = { version = "0.8.4", default-features = false, features = ["std", "std_rng"] }
+rand = { version = "0.8.6", default-features = false, features = ["std", "std_rng"] }
 sha1 = { version = "0.10.1", default-features = false }
 sha2 = { version = "0.10.0", default-features = false }
 
@@ -62,7 +62,7 @@ smallvec = "1.7.0"
 stringprep = "0.1.2"
 thiserror = "1.0.35"
 tracing = { version = "0.1.37", features = ["log"] }
-whoami = { version = "1.2.1", default-features = false }
+whoami = { version = "1.5.0", default-features = false }
 
 serde = { version = "1.0.144", features = ["derive"] }
 serde_json = { version = "1.0.85", features = ["raw_value"] }
